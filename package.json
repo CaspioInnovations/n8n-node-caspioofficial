@@ -1,0 +1,59 @@
+{
+	"name": "n8n-nodes-caspioofficial",
+	"version": "1.0.0",
+	"description": "n8n community node for integrating with the Caspio REST API - create, read, update and delete records in Caspio tables and views",
+	"license": "MIT",
+	"homepage": "https://www.caspio.com",
+	"keywords": [
+		"n8n-community-node-package",
+		"caspio",
+		"database",
+		"rest-api",
+		"crud",
+		"webhooks",
+		"low-code"
+	],
+	"author": {
+		"name": "Caspio Inc",
+		"email": "sysmonitor@caspio.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/CaspioInnovations/n8n-node-caspioofficial.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease",
+		"test": "echo \"No test specified\" && exit 0"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"credentials": [
+			"dist/credentials/CaspioOAuth2Api.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/Caspio/Caspioofficial.node.js",
+			"dist/nodes/Caspio/CaspioofficialTrigger.node.js"
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^24.2.0",
+		"@n8n/node-cli": "*",
+		"eslint": "9.32.0",
+		"prettier": "3.6.2",
+		"release-it": "^19.0.4",
+		"ts-node": "^10.9.2",
+		"typescript": "5.9.2"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}

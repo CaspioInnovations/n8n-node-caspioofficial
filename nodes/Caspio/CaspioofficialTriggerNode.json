@@ -1,0 +1,21 @@
+{
+    "node": "n8n-nodes-caspioofficial.CaspioofficialTrigger",
+    "nodeVersion": "1.0",
+    "codexVersion": "1.0",
+    "categories": [
+        "Data & Storage",
+        "Development"
+    ],
+    "resources": {
+        "credentialDocumentation": [
+            {
+                "url": "https://howto.caspio.com/integrate-your-apps/integration-with-n8n/n8n-integration-credentials"
+            }
+        ],
+        "primaryDocumentation": [
+            {
+                "url": "https://howto.caspio.com/integrate-your-apps/integration-with-n8n/n8n-integration-triggers"
+            }
+        ]
+    }
+}

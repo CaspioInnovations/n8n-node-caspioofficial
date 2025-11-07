@@ -1,0 +1,14 @@
+# Node.js
+node_modules
+dist
+
+# Editor
+.vscode
+.github
+
+# NPM
+*.tgz
+
+# OS junk
+.DS_Store
+Thumbs.db
