@@ -7,10 +7,10 @@ import * as task from './actions/task/Task.resource';
 import * as directory from './actions/directory/Directory.resource';
 import { listSearch, loadOptions, resourceMapping } from './methods';
 
-export class Caspioofficial implements INodeType {
+export class Caspio implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Caspio',
-		name: 'Caspioofficial',
+		name: 'caspio',
 		icon: 'file:caspio.svg',
 		group: ['transform'],
 		version: 1,

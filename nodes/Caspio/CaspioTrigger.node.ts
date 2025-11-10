@@ -101,10 +101,10 @@ function storeHashedSecret(webhookData: IDataObject, secret: string): void {
 	webhookData.secretHash = hashSecret(secret, salt);
 }
 
-export class CaspioofficialTrigger implements INodeType {
+export class CaspioTrigger implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Caspio Trigger',
-		name: 'CaspioofficialTrigger',
+		name: 'caspioTrigger',
 		icon: 'file:caspio.svg',
 		group: ['trigger'],
 		version: 1,

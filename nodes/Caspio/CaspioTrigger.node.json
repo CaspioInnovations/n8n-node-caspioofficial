@@ -1,5 +1,5 @@
 {
-    "node": "n8n-nodes-caspioofficial.CaspioofficialTrigger",
+    "node": "n8n-nodes-caspioofficial.caspioTrigger",
     "nodeVersion": "1.0",
     "codexVersion": "1.0",
     "categories": [

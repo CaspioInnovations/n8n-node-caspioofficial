@@ -1,5 +1,5 @@
 {
-    "node": "n8n-nodes-caspioofficial.Caspioofficial",
+    "node": "n8n-nodes-caspioofficial.caspio",
     "nodeVersion": "1.0",
     "codexVersion": "1.0",
     "categories": [

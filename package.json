@@ -40,14 +40,12 @@
 			"dist/credentials/CaspioOAuth2Api.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/Caspio/Caspioofficial.node.js",
-			"dist/nodes/Caspio/CaspioofficialTrigger.node.js"
+			"dist/nodes/Caspio/Caspio.node.js",
+			"dist/nodes/Caspio/CaspiolTrigger.node.js"
 		]
 	},
-	"dependencies": {
-		"@n8n/node-cli": "*"
-	},
 	"devDependencies": {
+		"@n8n/node-cli": "*",
 		"@types/node": "^24.2.0",
 		"eslint": "9.32.0",
 		"prettier": "3.6.2",
@@ -56,6 +54,6 @@
 		"typescript": "5.9.2"
 	},
 	"peerDependencies": {
-		"n8n-workflow": "^1.17.0"
+		"n8n-workflow": "^1.117.0"
 	}
 }
