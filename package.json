@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-caspioofficial",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "n8n community node for integrating with the Caspio REST API - create, read, update and delete records in Caspio tables and views",
 	"license": "MIT",
 	"homepage": "https://www.caspio.com",
@@ -41,7 +41,7 @@
 		],
 		"nodes": [
 			"dist/nodes/Caspio/Caspio.node.js",
-			"dist/nodes/Caspio/CaspiolTrigger.node.js"
+			"dist/nodes/Caspio/CaspioTrigger.node.js"
 		]
 	},
 	"devDependencies": {
