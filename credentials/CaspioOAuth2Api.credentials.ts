@@ -34,6 +34,17 @@ export class CaspioOAuth2Api implements ICredentialType {
 			placeholder: 'a1bcd234.caspio.com',
 			required: true,
 			description: 'Your Integration URL available in Account settings in Caspio.',
+			typeOptions: {
+				validation: [
+					{
+						type: 'regex',
+						properties: {
+							regex: '^[a-zA-Z0-9.-]+\\.caspio\\.com$',
+							errorMessage: 'Integration URL must be a valid Caspio domain (e.g., a1bcd234.caspio.com)',
+						},
+					},
+				],
+			},
 		},
 		{
 			displayName: 'Client ID',
